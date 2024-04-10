@@ -16,6 +16,6 @@ public class WordCombinerTests
 
         var result = wordCombiner.GetFullWordCombinations(fullWords, wordParts);
 
-        Assert.AreEqual(expectedCombinations, result);
+        Assert.That(result, Is.EqualTo(expectedCombinations));
     }
 }
