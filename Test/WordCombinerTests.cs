@@ -1,4 +1,5 @@
 using SixLetterWord;
+using SixLetterWord.code;
 
 namespace Test;
 

@@ -1,4 +1,4 @@
-﻿namespace SixLetterWord;
+﻿namespace SixLetterWord.code;
 
 public interface IWordProcessor
 {

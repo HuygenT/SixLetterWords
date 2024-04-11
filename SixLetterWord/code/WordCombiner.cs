@@ -1,6 +1,6 @@
-﻿namespace SixLetterWord;
+﻿namespace SixLetterWord.code;
 
-public class WordCombiner
+public class WordCombiner : IWordCombiner
 {
     public IEnumerable<string> GetFullWordCombinations(List<string> fullWords, List<string> wordParts)
     {
